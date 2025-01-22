@@ -10,6 +10,10 @@
         </li> -->
         <li class="news-item">
             <span class="news-date">[2025/01]</span>
+            <span class="news-content">Two papers about <span style="font-style: italic;">dense predictions and open-vocabulary object detection</span> are accepted by ICLR 2025!</span>
+        </li>
+        <li class="news-item">
+            <span class="news-date">[2025/01]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">volumetric medical image segmentation</span> is accepted by TMI!</span>
         </li>
         <li class="news-item">
