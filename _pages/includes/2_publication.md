@@ -10,6 +10,20 @@
 
 ## Selected Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR</div><img src='images/publication/META.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Memory Efficient Transformer Adapter for Dense Predictions**
+
+**Dong Zhang**, Rui Yan, Pingcheng Dong, Kwang-Ting Cheng
+
+*International Conference on Learning Representations (ICLR)*, 2025.
+
+<!-- [[Paper]()] [<a href="">Link</a>] -->
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI</div><img src='images/publication/gradprom.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -98,21 +112,6 @@
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR</div><img src='images/publication/5.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Unabridged Adjacent Modulation for Clothing Parsing**
-
-**Dong Zhang**, Chengting Zuo, Qianhao Wu, Liyong Fu, and Xinguang Xiang.
-
-*Pattern Recognition (PR)*, 2022.
-
-<!-- [[Paper]()] [<a href="">Link</a>] -->
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV</div><img src='images/publication/4.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -160,6 +159,7 @@
 
 
 ## 2025:
+- Chuhan Zhang, Chaoyang Zhu, Pingcheng Dong, Long Chen, **Dong Zhang**#. Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection. International Conference on Learning Representations (ICLR), 2025.  
 - Yun Zhu, **Dong Zhang**#, Yi Lin, Yifei Feng, Jinhui Tang. Merging Context Clustering with Visual State Space Models for Medical Image Segmentation. IEEE Transactions on Medical Imaging (TMI), 2025.
 - Xixi Jiang, **Dong Zhang**, Xiang Li, Kangyi Liu, Kwang-Ting Cheng, Xin Yang. Labeled-to-Unlabeled Distribution Alignment for Partially-Supervised Multi-Organ Medical Image Segmentation. Medical Image Analysis (MedIA), 2025.
 - Qianhao Wu, Xixi Jiang, **Dong Zhang**#, Yifei Feng, Jinhui Tang. Cross-Set Data Augmentation for Semi-Supervised Medical Image Segmentation. Image and Vision Computing, 2025.
@@ -192,6 +192,7 @@
 - Yi Lin, Xiao Fang, **Dong Zhang**, Kwang-Ting Cheng, and Hao Chen. A Permutable Hybrid Network for Volumetric Medical Image Segmentation. arXiv, 2023.
 
 ## 2022 and before:
+- *Dong Zhang**, Chengting Zuo, Qianhao Wu, Liyong Fu, and Xinguang Xiang. Unabridged Adjacent Modulation for Clothing Parsing. Pattern Recognition (PR), 2022.
 - Zenan Shi, Haipeng Chen, **Dong Zhang**, and Xuanjing Shen. Pretraining-Driven Multimodal Boundary Aware Vision Transformer. Journal of Software (in Chinese), 2022.
 - Yangjun Mao, Long Chen, Zhihong Jiang, **Dong Zhang**, Zhimeng Zhang, Jian Shao, and Jun Xiao. Rethinking the Reference-based Distinctive Image Captioning. ACM International Conference on Multimedia (ACM MM), 2022.
 - Liyong Fu*, **Dong Zhang***, and Qiaolin Ye. Recurrent Thrifty Attention Network for Remote Sensing Scene Recognition. IEEE Transactions on Geoscience and Remote Sensing, 2020. 
