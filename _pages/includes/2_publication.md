@@ -192,7 +192,7 @@
 - Yi Lin, Xiao Fang, **Dong Zhang**, Kwang-Ting Cheng, and Hao Chen. A Permutable Hybrid Network for Volumetric Medical Image Segmentation. arXiv, 2023.
 
 ## 2022 and before:
-- *Dong Zhang**, Chengting Zuo, Qianhao Wu, Liyong Fu, and Xinguang Xiang. Unabridged Adjacent Modulation for Clothing Parsing. Pattern Recognition (PR), 2022.
+- **Dong Zhang**, Chengting Zuo, Qianhao Wu, Liyong Fu, and Xinguang Xiang. Unabridged Adjacent Modulation for Clothing Parsing. Pattern Recognition (PR), 2022.
 - Zenan Shi, Haipeng Chen, **Dong Zhang**, and Xuanjing Shen. Pretraining-Driven Multimodal Boundary Aware Vision Transformer. Journal of Software (in Chinese), 2022.
 - Yangjun Mao, Long Chen, Zhihong Jiang, **Dong Zhang**, Zhimeng Zhang, Jian Shao, and Jun Xiao. Rethinking the Reference-based Distinctive Image Captioning. ACM International Conference on Multimedia (ACM MM), 2022.
 - Liyong Fu*, **Dong Zhang***, and Qiaolin Ye. Recurrent Thrifty Attention Network for Remote Sensing Scene Recognition. IEEE Transactions on Geoscience and Remote Sensing, 2020. 
