@@ -10,7 +10,7 @@
 
 ## Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PR</div><img src='images/publication/META.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR</div><img src='images/publication/META.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Memory Efficient Transformer Adapter for Dense Predictions**
