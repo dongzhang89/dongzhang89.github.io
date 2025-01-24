@@ -15,7 +15,7 @@
 
 **Memory Efficient Transformer Adapter for Dense Predictions**
 
-**Dong Zhang**, Rui Yan, Pingcheng Dong, Kwang-Ting Cheng
+**Dong Zhang**, Rui Yan, Pingcheng Dong, Kwang-Ting Cheng.
 
 *International Conference on Learning Representations (ICLR)*, 2025.
 
@@ -106,7 +106,7 @@
 - Dong Liang*, **Dong Zhang***, Qiong Wang, Zongqi Wei, and Liyan Zhang. CrossNet: Cross-Scene Background Subtraction Network via 3D Optical Flow. IEEE Transactions on Multimedia (TMM), 2023.
 - Yi Lin*, **Dong Zhang***, Xiao Fang, Yufan Chen, Kwang-Ting Cheng, and Hao Chen. Rethinking Boundary Detection in Deep Learning Models for Medical Image Segmentation. Information Processing in Medical Imaging (IPMI), 2023.
 - Chunyan Wang, **Dong Zhang**, Liyan Zhang, and Jinhui Tang. Coupling Global Context and Local Contents for Weakly-Supervised Semantic Segmentation. IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2023.
-- Yu Quan, **Dong Zhang**, Liyan Zhang, and Jinhui Tang. Centralized Feature Pyramid for Object Detection. IEEE Transactions on Image Processing (TIP), 2023..
+- Yu Quan, **Dong Zhang**, Liyan Zhang, and Jinhui Tang. Centralized Feature Pyramid for Object Detection. IEEE Transactions on Image Processing (TIP), 2023.
 - Fengyun Wang, **Dong Zhang**, Hanwang Zhang, Jinhui Tang, Qianru Sun. Semantic Scene Completion with Cleaner Self. The IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2023.
 - Jeffry Wicaksana, Zengqiang Yan, **Dong Zhang**, Xijie Huang, Huimin Wu, Xin Yang, and Kwang-Ting Cheng. FedMix: Mixed Supervised Federated Learning for Medical Image Segmentation. IEEE Transactions on Medical Imaging (TMI), 2023.
 - Yuchen Shen, **Dong Zhang**, Yuhui Zheng, Zechao Li, Liyong Fu, and Qiaolin Ye. Training-Free Instance Segmentation from Semantic Image Segmentation Masks. arXiv, 2023.
