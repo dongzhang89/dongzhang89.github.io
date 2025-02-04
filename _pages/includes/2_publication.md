@@ -55,7 +55,7 @@
 
 **Dong Zhang**, Hanwang Zhang, Jinhui Tang, Xiansheng Hua, and Qianru Sun.
 
-*Conference on Neural Information Processing Systems (NeurIPS <font color="red">oral</font>)*, 2020.
+*Advances in Neural Information Processing Systems (NeurIPS <font color="red">oral</font>)*, 2020.
 
 <!-- [[Paper]()] [<a href="">Link</a>] -->
 </div>
