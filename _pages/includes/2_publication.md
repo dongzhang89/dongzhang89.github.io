@@ -83,6 +83,7 @@
 - Xixi Jiang, **Dong Zhang**, Xiang Li, Kangyi Liu, Kwang-Ting Cheng, Xin Yang. Labeled-to-Unlabeled Distribution Alignment for Partially-Supervised Multi-Organ Medical Image Segmentation. Medical Image Analysis (MedIA), 2025.
 - Qianhao Wu, Xixi Jiang, **Dong Zhang**#, Yifei Feng, Jinhui Tang. Cross-Set Data Augmentation for Semi-Supervised Medical Image Segmentation. Image and Vision Computing, 2025.
 - Yi Lin, Xiao Fang, **Dong Zhang**, Kwang-Ting Cheng, and Hao Chen. Boosting Convolution with Efficient MLP-Permutation for Volumetric Medical Image Segmentation. IEEE Transactions on Medical Imaging (TMI), 2025.
+- Yonghao Tan, Pingcheng Dong, Yongkun Wu, Yu Liu, Xuejiao Liu, Peng Luo, Shih-Yang Liu, Xijie Huang, **Dong Zhang**, Luhong Liang and Kwang-Ting Cheng. Additive Partial Sum Quantization with Algorithm-Hardware Co-Design. ACM/IEEE Design Automation Conference (DAC), 2025.
 - Pingcheng Dong, Yonghao Tan, Xuejiao Liu, Peng Luo, Yu Liu, Luhong Liang, Yitong Zhou, Di Pang, Manto Yung, **Dong Zhang**, Xijie Huang, Shih-Yang Liu, Yongkun Wu, Fengshi Tian, Chi-Ying Tsui, Fengbin Tu, Kwang-Ting Cheng. A 28nm 0.22μJ/Token Memory-Compute-Intensity-Aware CNN-Transformer Accelerator with Hybrid-Attention-Based Layer-Fusion and Cascaded Pruning for Semantic Segmentation. IEEE International Solid-State Circuits Conference (ISSCC), 2025.
 
 ## 2024:

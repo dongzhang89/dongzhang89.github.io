@@ -9,6 +9,10 @@
             <span class="news-content"></span>
         </li> -->
         <li class="news-item">
+            <span class="news-date">[2025/02]</span>
+            <span class="news-content">One paper about <span style="font-style: italic;">algorithm-hardware co-design</span> is accepted by DAC 2025!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2025/01]</span>
             <span class="news-content">Two papers about <span style="font-style: italic;">dense predictions and open-vocabulary object detection</span> are accepted by ICLR 2025!</span>
         </li>
