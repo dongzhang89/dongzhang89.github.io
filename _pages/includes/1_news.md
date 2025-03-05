@@ -9,6 +9,10 @@
             <span class="news-content"></span>
         </li> -->
         <li class="news-item">
+            <span class="news-date">[2025/03]</span>
+            <span class="news-content">One paper about <span style="font-style: italic;">robustifying vision transformer</span> is accepted by PR 2025!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2025/02]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">algorithm-hardware co-design</span> is accepted by DAC 2025!</span>
         </li>
