@@ -10,6 +10,10 @@
         </li> -->
         <li class="news-item">
             <span class="news-date">[2025/04]</span>
+            <span class="news-content">Our team won a gold medal from the National Exhibition of Inventions in Geneva!</span>
+        </li>
+        <li class="news-item">
+            <span class="news-date">[2025/04]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">zero-shot video classification</span> is accepted by IJCAI!</span>
         </li>
         <li class="news-item">
