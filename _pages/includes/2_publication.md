@@ -81,6 +81,7 @@
 - Chuhan Zhang, Chaoyang Zhu, Pingcheng Dong, Long Chen, **Dong Zhang**#. Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection. International Conference on Learning Representations (ICLR), 2025.  
 - Zenan Shi, Haipeng Chen, and **Dong Zhang**#. Robustifying Vision Transformer for Image Forgery Localization with Multi-Exit Architectures. Pattern Recognition (PR), 2025. 
 - Yun Zhu, **Dong Zhang**#, Yi Lin, Yifei Feng, Jinhui Tang. Merging Context Clustering with Visual State Space Models for Medical Image Segmentation. IEEE Transactions on Medical Imaging (TMI), 2025.
+- Yu Quan, **Dong Zhang**, Jinhui Tang. Generalized Concordant Vision Transformer with Masked Image Tokens for Object Detection. IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025.
 - Yi Lin, **Dong Zhang**, Yufan Chen, Hao Chen, and Kwang-Ting Cheng. Rethinking Boundary Detection in Deep Learning-Based Medical Image Segmentation. Medical Image Analysis (MedIA), 2025.
 - Xixi Jiang, **Dong Zhang**, Xiang Li, Kangyi Liu, Kwang-Ting Cheng, Xin Yang. Labeled-to-Unlabeled Distribution Alignment for Partially-Supervised Multi-Organ Medical Image Segmentation. Medical Image Analysis (MedIA), 2025.
 - Qianhao Wu, Xixi Jiang, **Dong Zhang**#, Yifei Feng, Jinhui Tang. Cross-Set Data Augmentation for Semi-Supervised Medical Image Segmentation. Image and Vision Computing, 2025.
