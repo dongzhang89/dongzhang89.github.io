@@ -6,7 +6,7 @@
   image: "/assets/images/gallery/geneva2025.jpg"
 
 - description: "Our semantic segmentation model of urban street scene is run in a self-developed AI chip."
-  image: "/assets/images/gallery/automaticdrive.jpg"
+  image: "/assets/images/gallery/segdemo.gif"
 
 - description: "We published the first ISSCC in the field of AI chips in Hong Kong, and the research team took a photo."
   image: "/assets/images/gallery/isscc.jpg"
@@ -16,4 +16,7 @@
 
 - description: "Organize offline academic seminars. Professor Jiaya JIA was invited."
   image: "/assets/images/gallery/access_seminar.jpg"
+
+- description: "We have successfully deployed our ultrasound image semantic segmentation model on a ultrasound device, which is based on a self-developed chip."
+  image: "/assets/images/gallery/ultrasounddemo.gif"
 
