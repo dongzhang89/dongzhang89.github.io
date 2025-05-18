@@ -18,15 +18,15 @@
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
+    padding-right: 1em;
 
     &:hover {
       opacity: 1;
     }
   }
 
-
   @include breakpoint($x-large) {
-    padding-right: 0;
+    padding-right: 0.5em;
   }
 
   h2, h3, h4, h5, h6 {
