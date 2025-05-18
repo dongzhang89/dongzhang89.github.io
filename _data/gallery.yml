@@ -1,48 +1,18 @@
 # Gallery images data
-- title: "日落时分的香港科技大学"
-  description: "在黄昏时分拍摄的香港科技大学校园，金色的阳光洒在建筑物上，映衬着蔚蓝的海面。"
+- description: "在黄昏时分拍摄的香港科技大学校园，金色的阳光洒在建筑物上，映衬着蔚蓝的海面。"
   image: "/assets/images/gallery/hkust_sunset.jpg"
 
-- title: "清水湾的晨曦"
-  description: "清晨在清水湾海边拍摄，朝阳初升，海面泛起粼粼波光。"
+- description: "清晨在清水湾海边拍摄，朝阳初升，海面泛起粼粼波光。"
   image: "/assets/images/gallery/clearwater_bay_morning.jpg"
 
-- title: "繁忙的香港街道"
-  description: "夜幕下的香港街道，霓虹闪烁，车水马龙，展现了城市的活力。"
+- description: "夜幕下的香港街道，霓虹闪烁，车水马龙，展现了城市的活力。"
   image: "/assets/images/gallery/hong_kong_street.jpg"
 
-- title: "维多利亚港夜景"
-  description: "从太平山顶俯瞰维多利亚港，璀璨的夜景倒映在海面上，构成了独特的城市天际线。"
+- description: "从太平山顶俯瞰维多利亚港，璀璨的夜景倒映在海面上，构成了独特的城市天际线。"
   image: "/assets/images/gallery/victoria_harbour.jpg"
 
-- title: "校园的樱花"
-  description: "春天时节，校园里盛开的樱花，粉色的花瓣随风飘落，营造出浪漫的氛围。"
+- description: "春天时节，校园里盛开的樱花，粉色的花瓣随风飘落，营造出浪漫的氛围。"
   image: "/assets/images/gallery/campus_sakura.jpg"
 
-- title: "实验室的日常"
-  description: "记录在实验室工作的场景，各种设备和研究材料展现了科研工作的专注与严谨。"
+- description: "记录在实验室工作的场景，各种设备和研究材料展现了科研工作的专注与严谨。"
   image: "/assets/images/gallery/lab_work.jpg"
-
-- title: "学术会议交流"
-  description: "在国际学术会议上与同行交流研究成果，分享学术见解的珍贵时刻。"
-  image: "/assets/images/gallery/conference.jpg"
-
-- title: "团队合影"
-  description: "与研究团队成员们的合影，记录了我们共同奋斗的时光。"
-  image: "/assets/images/gallery/team_photo.jpg"
-
-- title: "教学场景"
-  description: "在课堂上与学生互动，分享知识的教学场景。"
-  image: "/assets/images/gallery/teaching.jpg"
-
-- title: "研究成果展示"
-  description: "在实验室展示最新的研究成果，记录科研工作的重要进展。"
-  image: "/assets/images/gallery/research_demo.jpg"
-
-- title: "校园生活"
-  description: "记录在香港科技大学的日常校园生活，展现学术氛围与人文景观的完美结合。"
-  image: "/assets/images/gallery/campus_life.jpg"
-
-- title: "学术讲座"
-  description: "在学术讲座上分享研究心得，与师生进行深入的学术交流。"
-  image: "/assets/images/gallery/academic_talk.jpg" 
