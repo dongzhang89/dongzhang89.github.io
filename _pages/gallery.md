@@ -39,6 +39,20 @@ layout: default
   white-space: nowrap;
 }
 
+/* 导航链接样式 */
+.masthead__menu-item a {
+  color: #494e52;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.masthead__menu-item a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 /* 移除原有的左侧空间 */
 .page {
   width: 100%;
@@ -52,9 +66,6 @@ layout: default
   padding: 1em;
 }
 </style>
-
-# <font color="#004479">Gallery</font>
-<span class='anchor' id='gallery'></span>
 
 <div class="gallery-container">
   <div class="gallery-grid">
