@@ -1,18 +1,19 @@
 # Gallery images data
-- description: "在黄昏时分拍摄的香港科技大学校园，金色的阳光洒在建筑物上，映衬着蔚蓝的海面。"
-  image: "/assets/images/gallery/hkust_sunset.jpg"
+- description: "Meetings were held with colleagues from HKAG to discuss the details of the deployment of our system in nursing homes."
+  image: "/assets/images/gallery/hkag.jpg"
 
-- description: "清晨在清水湾海边拍摄，朝阳初升，海面泛起粼粼波光。"
-  image: "/assets/images/gallery/clearwater_bay_morning.jpg"
+- description: "Our team's research results won a gold medal at the Geneva International Exhibition of Inventions."
+  image: "/assets/images/gallery/geneva2025.jpg"
 
-- description: "夜幕下的香港街道，霓虹闪烁，车水马龙，展现了城市的活力。"
-  image: "/assets/images/gallery/hong_kong_street.jpg"
+- description: "Our semantic segmentation model of urban street scene is run in a self-developed AI chip."
+  image: "/assets/images/gallery/automaticdrive.jpg"
 
-- description: "从太平山顶俯瞰维多利亚港，璀璨的夜景倒映在海面上，构成了独特的城市天际线。"
-  image: "/assets/images/gallery/victoria_harbour.jpg"
+- description: "We published the first ISSCC in the field of AI chips in Hong Kong, and the research team took a photo."
+  image: "/assets/images/gallery/isscc.jpg"
 
-- description: "春天时节，校园里盛开的樱花，粉色的花瓣随风飘落，营造出浪漫的氛围。"
-  image: "/assets/images/gallery/campus_sakura.jpg"
+- description: "Visit HK officials with Prof. Tim Cheng and give a keynote speech."
+  image: "/assets/images/gallery/tim.jpg"
 
-- description: "记录在实验室工作的场景，各种设备和研究材料展现了科研工作的专注与严谨。"
-  image: "/assets/images/gallery/lab_work.jpg"
+- description: "Organize offline academic seminars. Professor Jiaya JIA was invited."
+  image: "/assets/images/gallery/access_seminar.jpg"
+
