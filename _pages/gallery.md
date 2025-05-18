@@ -2,6 +2,7 @@
 title: "Gallery"
 permalink: /gallery/
 author_profile: true
+layout: default
 ---
 
 # <font color="#004479">Gallery</font>
