@@ -1,9 +1,57 @@
 ---
 title: "Gallery"
 permalink: /gallery/
-author_profile: true
+author_profile: false
 layout: default
 ---
+
+<style>
+/* 导航栏样式 */
+.masthead {
+  border-bottom: 1px solid #f2f3f3;
+  background: white;
+}
+
+.masthead__menu {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visible-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.masthead__menu-item {
+  padding: 0.5em 1em;
+  white-space: nowrap;
+}
+
+/* 移除原有的左侧空间 */
+.page {
+  width: 100%;
+  padding-right: 0;
+  margin: 0;
+}
+
+#main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+}
+</style>
 
 # <font color="#004479">Gallery</font>
 <span class='anchor' id='gallery'></span>
@@ -28,6 +76,8 @@ layout: default
 <style>
 .gallery-container {
   padding: 20px 0;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .gallery-grid {
