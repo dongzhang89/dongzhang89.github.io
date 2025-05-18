@@ -213,6 +213,9 @@
 
         a {
           margin-left: 0;
+          &:before {
+            display: none; /* Hide the icon for Homepage link */
+          }
         }
       }
 
