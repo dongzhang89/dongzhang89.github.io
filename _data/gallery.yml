@@ -17,6 +17,15 @@
 - description: "Organize offline academic seminars. Professor Jiaya JIA was invited."
   image: "/assets/images/gallery/access_seminar.jpg"
 
+- description: "Happy Teachers' Day! Thanks to all the teachers who helped me along the way."
+  image: "/assets/images/gallery/teacherday.jpg"
+
 - description: "We have successfully deployed our semantic segmentation model on a ultrasound device, which is based on a self-developed AI chip."
   image: "/assets/images/gallery/ultrasounddemo.gif"
+  
+- description: "One of our models for efficient human pose detection has been deployed on an AI chip and achieved remarkable results."
+  image: "/assets/images/gallery/pose.jpg"
+  
+- description: "My cats: Erling and Wuyi."
+  image: "/assets/images/gallery/erlingandwuyi.jpg"
 
