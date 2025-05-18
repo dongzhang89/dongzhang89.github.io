@@ -21,12 +21,11 @@ layout: default
 .greedy-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .visible-links {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: nowrap;
   margin: 0;
   padding: 0;
@@ -37,6 +36,10 @@ layout: default
 .masthead__menu-item {
   padding: 0.5em 1em;
   white-space: nowrap;
+}
+
+.masthead__menu-item:first-child {
+  padding-left: 0;
 }
 
 /* 导航链接样式 */
@@ -65,20 +68,23 @@ layout: default
   margin: 0 auto;
   padding: 1em;
 }
+
+/* 调整导航栏容器宽度 */
+.initial-content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 </style>
 
 <div class="gallery-container">
   <div class="gallery-grid">
     {% for image in site.data.gallery %}
       <div class="gallery-item">
-        <a href="{{ image.full_url }}" class="gallery-link" data-title="{{ image.title }}">
-          <img src="{{ image.thumbnail_url }}" alt="{{ image.title }}" loading="lazy">
-          <div class="gallery-item-info">
-            <h3>{{ image.title }}</h3>
-            <p>{{ image.description }}</p>
-            <span class="gallery-date">{{ image.date }}</span>
-          </div>
-        </a>
+        <img src="{{ image.image }}" alt="{{ image.title }}" loading="lazy">
+        <div class="gallery-item-info">
+          <h3>{{ image.title }}</h3>
+          <p>{{ image.description }}</p>
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -94,7 +100,7 @@ layout: default
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  gap: 30px;
   padding: 0 10px;
 }
 
@@ -102,6 +108,7 @@ layout: default
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  background: white;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
@@ -118,33 +125,21 @@ layout: default
 }
 
 .gallery-item-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(transparent, rgba(0,0,0,0.8));
-  color: white;
   padding: 15px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.gallery-item:hover .gallery-item-info {
-  opacity: 1;
+  background: white;
 }
 
 .gallery-item-info h3 {
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   font-size: 1.2em;
+  color: #333;
+  font-weight: 500;
 }
 
 .gallery-item-info p {
   margin: 0;
-  font-size: 0.9em;
-}
-
-.gallery-date {
-  font-size: 0.8em;
-  opacity: 0.8;
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.5;
 }
 </style> 
