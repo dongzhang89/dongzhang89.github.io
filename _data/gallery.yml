@@ -1,5 +1,5 @@
 # Gallery images data
-- description: "Meetings were held with colleagues from HKAG to discuss the details of the deployment of our system in nursing homes."
+- description: "Meeting with colleagues from HKAG to discuss the details of the deployment of our system in nursing homes."
   image: "/assets/images/gallery/hkag.jpg"
 
 - description: "Our team's research results won a gold medal at the Geneva International Exhibition of Inventions."
@@ -11,7 +11,7 @@
 - description: "We published the first ISSCC in the field of AI chips in Hong Kong, and the research team took a photo."
   image: "/assets/images/gallery/isscc.jpg"
 
-- description: "Visit HK officials with Prof. Tim Cheng and give a keynote speech."
+- description: "Visit HK officials with Prof. Tim Cheng and give a keynote speech titled: AI for wellness analysis."
   image: "/assets/images/gallery/tim.jpg"
 
 - description: "Organize offline academic seminars. Professor Jiaya JIA was invited."
