@@ -78,6 +78,7 @@
 
 
 ## 2025:
+- Shu Jiang, **Dong Zhang**#, Rui Yan, Xiangbo Shu, Pingcheng Dong, Long Chen, Xiaoyu Du. Eliminating Semantic Ambiguity in Human Pose Estimation via Stable Feature Upsampling. IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025.
 - Chuhan Zhang, Chaoyang Zhu, Pingcheng Dong, Long Chen, **Dong Zhang**#. Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection. International Conference on Learning Representations (ICLR), 2025.  
 - Zenan Shi, Haipeng Chen, and **Dong Zhang**#. Robustifying Vision Transformer for Image Forgery Localization with Multi-Exit Architectures. Pattern Recognition (PR), 2025. 
 - Zenan Shi, Haipeng Chen, Yixin Jia, **Dong Zhang**#, Wei Lu, Xun Yang. Customized Transformer Adapter with Frequency Masking for Deepfake Detection. IEEE Transactions on Information Forensics and Security (TIFS), 2025. 
