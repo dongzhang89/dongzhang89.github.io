@@ -9,6 +9,10 @@
             <span class="news-content"></span>
         </li> -->
         <li class="news-item">
+            <span class="news-date">[2025/07]</span>
+            <span class="news-content">Two papers about <span style="font-style: italic;">referring video object segmentation and diffusion-guided knowledge distillation</span> are accepted by ACM MM!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2025/06]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">stable feature upsampling</span> is accepted by TCSVT!</span>
         </li>
