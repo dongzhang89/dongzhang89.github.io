@@ -13,7 +13,6 @@
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-# <font color="#004479"> Hi there! I am Dong Zhang (张冬)</font>
 <span class='anchor' id='about-me'></span>
 <!-- , under the supervision of <a href="https://www.mingmingfan.com/">Prof. Mingming Fan</a> -->
 I am a Research Assistant Professor at the Department of Electronic and Computer Engineering at The Hong Kong University of Science and Technology (HKUST), where I work closely with [Prof. Kwang-Ting Cheng](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng). I also collaborate closely with AI Chip Center for Emerging Smart Systems (ACCESS) as a Faculty Researcher (member of the professor team). Prior to this, I was a postdoctoral researcher at the Department of CSE of HKUST from Jan. 2022 to Nov. 2023. Before joining HKUST, I earned my Ph.D. degree in Computer Science and Technology from Nanjing University of Science and Technology, where I was supervised by [Prof. Jinhui Tang](https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=en). From Sep. 2018 to Sep. 2020, I was supported by the China Scholarship Council as a joint Ph.D. student at NTU in Singapore, under the supervision of Prof. Hanwang Zhang and Prof. Qianru Sun.
