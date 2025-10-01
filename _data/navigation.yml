@@ -20,9 +20,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
     
-  - title: "Students & Staffs"
-    url: /students-staffs/
-    
   - title: "CV"
     url: /cv/
     
