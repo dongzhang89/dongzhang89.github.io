@@ -96,6 +96,7 @@ Professional Service
 
 - Guest Editor:
   - Special Issue on "[Deep Learning in Computer Vision](https://www.mdpi.com/journal/jimaging/special_issues/JPK36G569L)", Journal of Imaging
+  - Special Issue on "[Recent Advances in Applications of Machine Learning and Computer Vision](https://www.mdpi.com/journal/electronics/special_issues/3W868U1B6W)", Journal of Electronics
 
 - Invited Talks:
   - Graph-Based Vision Transformer, [RoboAICon2023](https://2023.theresearchcatalyst-robo.com/), 2023
