@@ -67,7 +67,7 @@ I am a Research Assistant Professor at the Department of Electronic and Computer
 </div>
 
 # News
-<div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: auto; height: auto;">
+<div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
             <span class="news-date">[2025/09]</span>
