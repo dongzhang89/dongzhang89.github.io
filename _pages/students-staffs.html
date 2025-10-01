@@ -1,0 +1,246 @@
+---
+layout: archive
+title: "Students & Staffs"
+permalink: /students-staffs/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+/* 整体字体大小调整 */
+.page__content {
+  font-size: 0.9em;
+}
+
+.page__content h1 {
+  font-size: 1.6em;
+}
+
+.page__content h2 {
+  font-size: 1.3em;
+}
+
+.page__content h3 {
+  font-size: 1em;
+}
+
+/* 页面标题样式 - 与其他页面一致 */
+.page__title {
+  font-size: 1.4em !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 人员卡片布局 */
+.people-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.person-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.person-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  border: 4px solid #3498db;
+  display: block;
+}
+
+.person-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.person-title {
+  color: #7f8c8d;
+  font-size: 0.95em;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.person-description {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.person-links {
+  margin-top: 15px;
+}
+
+.person-links a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.9em;
+}
+
+.person-links a:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.section-subtitle {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .people-gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .person-card {
+    padding: 20px;
+  }
+  
+  .person-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* 空状态样式 */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.empty-state h3 {
+  color: #95a5a6;
+  margin-bottom: 10px;
+}
+</style>
+
+<div class="students-staffs-content">
+
+<h2 class="section-title">Current Students</h2>
+<div class="people-gallery">
+  <!-- 博士生 -->
+  <div class="person-card">
+    <img src="{{ '/images/students/placeholder.jpg' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'">
+    <div class="person-name">[博士生姓名]</div>
+    <div class="person-title">PhD Student</div>
+    <div class="person-description">
+      研究方向：[研究方向]<br>
+      入学时间：[入学年份]<br>
+      研究兴趣：[研究兴趣描述]
+    </div>
+    <div class="person-links">
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+    </div>
+  </div>
+  
+  <!-- 硕士生 -->
+  <div class="person-card">
+    <img src="{{ '/images/students/placeholder.jpg' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'">
+    <div class="person-name">[硕士生姓名]</div>
+    <div class="person-title">Master Student</div>
+    <div class="person-description">
+      研究方向：[研究方向]<br>
+      入学时间：[入学年份]<br>
+      研究兴趣：[研究兴趣描述]
+    </div>
+    <div class="person-links">
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">Research Staff</h2>
+<div class="people-gallery">
+  <!-- 博士后 -->
+  <div class="person-card">
+    <img src="{{ '/images/staff/placeholder.jpg' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'">
+    <div class="person-name">[博士后姓名]</div>
+    <div class="person-title">Postdoctoral Researcher</div>
+    <div class="person-description">
+      研究领域：[研究领域]<br>
+      加入时间：[加入年份]<br>
+      主要贡献：[主要研究贡献]
+    </div>
+    <div class="person-links">
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org" target="_blank">ORCID</a>
+    </div>
+  </div>
+  
+  <!-- 研究助理 -->
+  <div class="person-card">
+    <img src="{{ '/images/staff/placeholder.jpg' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'">
+    <div class="person-name">[研究助理姓名]</div>
+    <div class="person-title">Research Assistant</div>
+    <div class="person-description">
+      工作职责：[工作职责]<br>
+      加入时间：[加入年份]<br>
+      专业背景：[专业背景]
+    </div>
+    <div class="person-links">
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">Alumni</h2>
+<div class="people-gallery">
+  <!-- 毕业生示例 -->
+  <div class="person-card">
+    <img src="{{ '/images/alumni/placeholder.jpg' | prepend: base_path }}" alt="Alumni Photo" class="person-photo" onerror="this.style.display='none'">
+    <div class="person-name">[毕业生姓名]</div>
+    <div class="person-title">Former PhD Student</div>
+    <div class="person-description">
+      毕业时间：[毕业年份]<br>
+      当前职位：[当前职位]<br>
+      工作单位：[工作单位]
+    </div>
+    <div class="person-links">
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<div class="empty-state">
+  <h3>欢迎加入我们的研究团队！</h3>
+  <p>我们正在寻找有才华的研究生和研究人员加入我们的团队。如果您对我们的研究方向感兴趣，欢迎联系我们。</p>
+</div>
+
+</div>
