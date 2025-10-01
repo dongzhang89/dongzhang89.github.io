@@ -1,0 +1,191 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+/* 整体字体大小调整 */
+.page__content {
+  font-size: 0.9em;
+}
+
+.page__content h1 {
+  font-size: 1.6em;
+}
+
+.page__content h2 {
+  font-size: 1.3em;
+}
+
+.page__content h3 {
+  font-size: 1em;
+}
+
+/* 页面标题样式 - 与其他页面一致 */
+.page__title {
+  font-size: 1.4em !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 图像网格布局 */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+}
+
+.section-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.memorial-text {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px 0;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: justify;
+  border-left: 4px solid #3498db;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+</style>
+
+<div class="portfolio-content">
+
+<h2 class="section-title">Gallery</h2>
+<div class="image-gallery">
+  <div class="image-item">
+    <img src="{{ '/images/gallery/access_seminar.jpg' | prepend: base_path }}" alt="ACCESS Seminar" onerror="this.style.display='none'">
+    <div class="image-caption">ACCESS Seminar</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/dahe.jpg' | prepend: base_path }}" alt="Dahe" onerror="this.style.display='none'">
+    <div class="image-caption">Staying awake all night, this was the most important day of my life</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/erlingandwuyi.jpg' | prepend: base_path }}" alt="Erling and Wuyi" onerror="this.style.display='none'">
+    <div class="image-caption">With Erling and Wuyi</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/geneva2025.jpg' | prepend: base_path }}" alt="Geneva 2025" onerror="this.style.display='none'">
+    <div class="image-caption">International Exhibition of Inventions, Geneva 2025</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/hkag.jpg' | prepend: base_path }}" alt="HKAG" onerror="this.style.display='none'">
+    <div class="image-caption">Hong Kong AI event</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/isscc.jpg' | prepend: base_path }}" alt="ISSCC" onerror="this.style.display='none'">
+    <div class="image-caption">ISSCC conference presentation</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/pose.jpg' | prepend: base_path }}" alt="Pose Estimation" onerror="this.style.display='none'">
+    <div class="image-caption">Human pose estimation research</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/segdemo.gif' | prepend: base_path }}" alt="Segmentation Demo" onerror="this.style.display='none'">
+    <div class="image-caption">Image segmentation demonstration</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/showdemo.jpg' | prepend: base_path }}" alt="Show Demo" onerror="this.style.display='none'">
+    <div class="image-caption">Research demonstration showcase</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/teacherday.jpg' | prepend: base_path }}" alt="Teacher Day" onerror="this.style.display='none'">
+    <div class="image-caption">Teacher's Day celebration</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/tim.jpg' | prepend: base_path }}" alt="Tim" onerror="this.style.display='none'">
+    <div class="image-caption">Meeting with Prof. Tim Cheng</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/gallery/ultrasounddemo.gif' | prepend: base_path }}" alt="Ultrasound Demo" onerror="this.style.display='none'">
+    <div class="image-caption">Medical ultrasound analysis demo</div>
+  </div>
+</div>
+
+<div class="memorial-text">
+  The joy of pet ownership is forever intertwined with sorrow, for these devoted companions spend their entire existence accompanying us through life's most significant chapters. With deep affection, I remember my dear cat ERLING (二零), who stayed by my side throughout my challenging PhD years. ERLING was a stray I adopted in 2018 - gentle, loving, and surprisingly understanding for a cat. Sadly, ERLING's life ended too soon in a car accident in December 2023. Though just a pet, her quiet presence comforted me through many anxious, sleepless nights. I'll always be grateful for her companionship, and the memories we shared will stay with me forever.
+
+
+</div>
+
+<h2 class="section-title">ERLING (二零)</h2>
+<div class="image-gallery">
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling1.jpg' | prepend: base_path }}" alt="Erling 1" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING in her favorite spot</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling2.jpg' | prepend: base_path }}" alt="Erling 2" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING during study time</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling3.jpg' | prepend: base_path }}" alt="Erling 3" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING's curious moments</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling4.jpg' | prepend: base_path }}" alt="Erling 4" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING's peaceful sleep</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling6.jpg' | prepend: base_path }}" alt="Erling 6" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING's playful side</div>
+  </div>
+  <div class="image-item">
+    <img src="{{ '/images/erling/erling7.jpg' | prepend: base_path }}" alt="Erling 7" onerror="this.style.display='none'">
+    <div class="image-caption">ERLING's gentle nature</div>
+  </div>
+</div>
+
+</div>
+
