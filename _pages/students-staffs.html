@@ -35,7 +35,7 @@ author_profile: true
 /* 人员卡片布局 */
 .people-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -116,6 +116,13 @@ author_profile: true
 }
 
 /* 响应式设计 */
+@media (max-width: 1200px) {
+  .people-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
 @media (max-width: 768px) {
   .people-gallery {
     grid-template-columns: 1fr;
