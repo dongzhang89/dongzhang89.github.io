@@ -8,52 +8,27 @@ redirect_from:
 ---
 
 <style>
-/* 整体字体大小调整 */
-.page__content {
-  font-size: 0.9em;
+/* 只调整正文内容字体大小，保持标题不变 */
+.page__content p,
+.page__content li,
+.page__content ul,
+.page__content ol {
+  font-size: 0.9em !important;
 }
 
-.page__content h1 {
-  font-size: 1.6em;
+/* 保持标题字体大小不变 */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  font-size: inherit !important;
 }
 
-.page__content h2 {
-  font-size: 1.3em;
-}
-
-.page__content h3 {
-  font-size: 1em;
-}
-
-/* 页面标题样式 - 与about页面一致 */
+/* 页面标题样式保持不变 */
 .page__title {
-  font-size: 1.4em !important;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-/* CV内容样式 */
-.cv-content {
-  line-height: 1.6;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.cv-section {
-  margin-bottom: 30px;
-}
-
-.cv-section h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  font-size: 1.0em;
-}
-
-.cv-section p {
-  margin-bottom: 15px;
-  text-align: justify;
+  font-size: inherit !important;
 }
 </style>
 

@@ -1,0 +1,71 @@
+/* CV页面自定义样式 */
+
+/* 整体字体大小调整 */
+.page__content {
+  font-size: 0.9em !important;
+}
+
+.page__content h1 {
+  font-size: 1.6em !important;
+}
+
+.page__content h2 {
+  font-size: 1.3em !important;
+}
+
+.page__content h3 {
+  font-size: 1em !important;
+}
+
+/* 页面标题样式 - 与about页面一致 */
+.page__title {
+  font-size: 1.4em !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* CV内容样式 */
+.cv-content {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.cv-section {
+  margin-bottom: 30px;
+}
+
+.cv-section h2 {
+  color: #2c3e50 !important;
+  border-bottom: 2px solid #3498db !important;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 1.0em !important;
+}
+
+.cv-section p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* 确保CV页面的样式优先级 */
+.archive .page__content {
+  font-size: 0.9em !important;
+}
+
+.archive .page__content h2 {
+  font-size: 1.3em !important;
+  color: #2c3e50 !important;
+  border-bottom: 2px solid #3498db !important;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.archive .page__content h3 {
+  font-size: 1em !important;
+}
+
+.archive .page__content p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
