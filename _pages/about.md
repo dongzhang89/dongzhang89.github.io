@@ -70,7 +70,7 @@ I am a Research Assistant Professor at the Department of Electronic and Computer
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
-            <span class="news-date">[2025/09]</span>
+            <span class="news-date">[2025/10]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">semantic image segmentation</span> is accepted by KBS!</span>
         </li>
         <li class="news-item">
