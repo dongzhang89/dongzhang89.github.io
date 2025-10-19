@@ -43,6 +43,7 @@ Education
 
 Work Experience
 ---
+* Faculty Researcher, AI Chip Center for Emerging Smart Systems (HK), 2023-present
 * Research Assistant Professor, The Hong Kong University of Science and Technology, 2023-present
 * Postdoctoral Research Fellow, The Hong Kong University of Science and Technology, 2022-2023
 
