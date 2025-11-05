@@ -34,8 +34,8 @@ author_profile: true
 
 /* 人员卡片布局 */
 .people-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -45,7 +45,8 @@ author_profile: true
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 25px;
-  text-align: center;
+  display: flex;
+  gap: 25px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -54,14 +55,44 @@ author_profile: true
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
+.person-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .person-photo {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 20px;
   border: 4px solid #3498db;
   display: block;
+  margin-bottom: 15px;
+}
+
+.person-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.person-links a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.person-links a:hover {
+  text-decoration: underline;
+}
+
+.person-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .person-name {
@@ -82,22 +113,6 @@ author_profile: true
   color: #555;
   line-height: 1.6;
   font-size: 0.9em;
-  text-align: left;
-}
-
-.person-links {
-  margin-top: 15px;
-}
-
-.person-links a {
-  color: #3498db;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 0.9em;
-}
-
-.person-links a:hover {
-  text-decoration: underline;
 }
 
 .section-title {
@@ -116,26 +131,33 @@ author_profile: true
 }
 
 /* 响应式设计 */
-@media (max-width: 1200px) {
-  .people-gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-  }
-}
-
 @media (max-width: 768px) {
   .people-gallery {
-    grid-template-columns: 1fr;
     gap: 20px;
   }
   
   .person-card {
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .person-left {
+    width: 100%;
   }
   
   .person-photo {
     width: 100px;
     height: 100px;
+  }
+  
+  .person-right {
+    text-align: center;
+  }
+  
+  .person-description {
+    text-align: left;
   }
 }
 
@@ -159,32 +181,40 @@ author_profile: true
 <div class="people-gallery">
   <!-- Postdoctoral Researcher -->
   <div class="person-card">
-    <img src="{{ '/images/staff/favicon.png' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Lin Li</div>
-    <div class="person-title">Postdoctoral Researcher</div>
-    <div class="person-description">
-      Research Field: Scene Graph Generation<br>
-      Join Date: 2024<br>
-      Locale: Hong Kong<br>
+    <div class="person-left">
+      <img src="{{ '/images/staff/favicon.png' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="lllidy@ust.hk">Email</a>
+        <a href="https://scholar.google.com/citations?user=4-z7znIAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="lllidy@ust.hk">Email</a>
-      <a href="https://scholar.google.com/citations?user=4-z7znIAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+    <div class="person-right">
+      <div class="person-name">Lin Li</div>
+      <div class="person-title">Postdoctoral Researcher</div>
+      <div class="person-description">
+        Research Field: Scene Graph Generation<br>
+        Join Date: 2024<br>
+        Locale: Hong Kong<br>
+      </div>
     </div>
   </div>
   
   <div class="person-card">
-    <img src="{{ '/images/staff/favicon.png' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Chen Yang</div>
-    <div class="person-title">Postdoctoral Researcher</div>
-    <div class="person-description">
-      Research Field: Medical Image Analysis<br>
-      Join Date: 2025<br>
-      Locale: Hong Kong<br>
+    <div class="person-left">
+      <img src="{{ '/images/staff/favicon.png' | prepend: base_path }}" alt="Staff Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="eechengyang@ust.hk">Email</a>
+        <a href="https://scholar.google.com/citations?user=C6fAQeIAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="eechengyang@ust.hk">Email</a>
-      <a href="https://scholar.google.com/citations?user=C6fAQeIAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+    <div class="person-right">
+      <div class="person-name">Chen Yang</div>
+      <div class="person-title">Postdoctoral Researcher</div>
+      <div class="person-description">
+        Research Field: Medical Image Analysis<br>
+        Join Date: 2025<br>
+        Locale: Hong Kong<br>
+      </div>
     </div>
   </div>
 </div>
@@ -193,87 +223,111 @@ author_profile: true
 <div class="people-gallery">
   <!-- PhD Student -->
   <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Dingwei Zhang</div>
-    <div class="person-title">PhD Student</div>
-    <div class="person-description">
-      Research Area: Video Object Segmentation<br>
-      Start Date: 2024<br>
-      Locale: Nanjing<br>
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="zdw1025@njust.edu.cn">Email</a>
+        <a href="https://scholar.google.com/citations?user=gwdxQ_cAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="zdw1025@njust.edu.cn">Email</a>
-      <a href="https://scholar.google.com/citations?user=gwdxQ_cAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Yun Zhu</div>
-    <div class="person-title">PhD Student</div>
-    <div class="person-description">
-      Research Area: Medical Image Analysis<br>
-      Start Date: 2023<br>
-      Locale: Nanjing<br>
-    </div>
-    <div class="person-links">
-      <a href="zhuyunmissy@njust.edu.cn">Email</a>
+    <div class="person-right">
+      <div class="person-name">Dingwei Zhang</div>
+      <div class="person-title">PhD Student</div>
+      <div class="person-description">
+        Research Area: Video Object Segmentation<br>
+        Start Date: 2024<br>
+        Locale: Nanjing<br>
+      </div>
     </div>
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Chunyan Wang</div>
-    <div class="person-title">PhD Student</div>
-    <div class="person-description">
-      Research Area: Semantic Segmentation<br>
-      Start Date: 2019<br>
-      Locale: Nanjing<br>
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="zhuyunmissy@njust.edu.cn">Email</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="carrie_yan@njust.edu.cn">Email</a>
+    <div class="person-right">
+      <div class="person-name">Yun Zhu</div>
+      <div class="person-title">PhD Student</div>
+      <div class="person-description">
+        Research Area: Medical Image Analysis<br>
+        Start Date: 2023<br>
+        Locale: Nanjing<br>
+      </div>
     </div>
   </div>
 
   <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Yu Quan</div>
-    <div class="person-title">PhD Student</div>
-    <div class="person-description">
-      Research Area: Object Detection<br>
-      Start Date: 2020<br>
-      Locale: Nanjing<br>
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="carrie_yan@njust.edu.cn">Email</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="quanyu@njust.edu.cn">Email</a>
+    <div class="person-right">
+      <div class="person-name">Chunyan Wang</div>
+      <div class="person-title">PhD Student</div>
+      <div class="person-description">
+        Research Area: Semantic Segmentation<br>
+        Start Date: 2019<br>
+        Locale: Nanjing<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="quanyu@njust.edu.cn">Email</a>
+      </div>
+    </div>
+    <div class="person-right">
+      <div class="person-name">Yu Quan</div>
+      <div class="person-title">PhD Student</div>
+      <div class="person-description">
+        Research Area: Object Detection<br>
+        Start Date: 2020<br>
+        Locale: Nanjing<br>
+      </div>
     </div>
   </div>
 
   <!-- Master Student -->
   <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Lingfeng He</div>
-    <div class="person-title">Master Student</div>
-    <div class="person-description">
-      Research Area: Image Editing<br>
-      Start Date: 2024<br>
-      Locale: Nanjing<br>
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="helingfeng@njust.edu.cn">Email</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="helingfeng@njust.edu.cn">Email</a>
+    <div class="person-right">
+      <div class="person-name">Lingfeng He</div>
+      <div class="person-title">Master Student</div>
+      <div class="person-description">
+        Research Area: Image Editing<br>
+        Start Date: 2024<br>
+        Locale: Nanjing<br>
+      </div>
     </div>
   </div>
   <div class="person-card">
-    <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-    <div class="person-name">Rui Chen</div>
-    <div class="person-title">Master Student</div>
-    <div class="person-description">
-      Research Area: Multimodality Reasoning<br>
-      Start Date: 2025<br>
-      Locale: Nanjing<br>
+    <div class="person-left">
+      <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
+      <div class="person-links">
+        <a href="helingfeng@njust.edu.cn">Email</a>
+      </div>
     </div>
-    <div class="person-links">
-      <a href="helingfeng@njust.edu.cn">Email</a>
+    <div class="person-right">
+      <div class="person-name">Rui Chen</div>
+      <div class="person-title">Master Student</div>
+      <div class="person-description">
+        Research Area: Multimodality Reasoning<br>
+        Start Date: 2025<br>
+        Locale: Nanjing<br>
+      </div>
     </div>
   </div>
 </div>
