@@ -26,14 +26,14 @@ author:
   avatar           : "dong.png"
   name             : "Dong Zhang (张冬)"
   pronouns         : # example: "she/her"  
-  bio              : "Research Assistant Professor"
-  location         : "Hong Kong"
-  employer         : "HKUST, ECE"
+  bio              : "Professor"
+  location         : "Nanjing, China"
+  employer         : "NJUST, SCSE"
   uri              : # URL
   email            : "dongz@ust.hk" 
 
   # Academic websites
-  academia         : https://ece.hkust.edu.hk/dongz
+  academia         : # https://ece.hkust.edu.hk/dongz
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=zxVy7sIAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
