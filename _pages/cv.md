@@ -41,10 +41,11 @@ Education
 * M.S. in Computer Application Technology, Nanjing Forestry University, 2016
 * B.S. in Computer Science and Technology, Nanjing Forestry University, 2014
 
-Work Experience
+Work Experiences
 ---
-* Faculty Researcher, AI Chip Center for Emerging Smart Systems (HK), 2023-present
-* Research Assistant Professor, The Hong Kong University of Science and Technology, 2023-present
+* Professor, Nanjing University of Science and Technology, 2025-current
+* Faculty Researcher, AI Chip Center for Emerging Smart Systems (HK), 2023-2025
+* Research Assistant Professor, The Hong Kong University of Science and Technology, 2023-2025
 * Postdoctoral Research Fellow, The Hong Kong University of Science and Technology, 2022-2023
 
 Professional Service
