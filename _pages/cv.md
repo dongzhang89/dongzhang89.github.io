@@ -43,10 +43,10 @@ Education
 
 Work Experiences
 ---
-* Professor, Nanjing University of Science and Technology, 2025-current
-* Faculty Researcher, AI Chip Center for Emerging Smart Systems (HK), 2023-2025
-* Research Assistant Professor, The Hong Kong University of Science and Technology, 2023-2025
-* Postdoctoral Research Fellow, The Hong Kong University of Science and Technology, 2022-2023
+* Professor, Nanjing University of Science and Technology, 2025.12-current
+* Faculty Researcher, AI Chip Center for Emerging Smart Systems (HK), 2023.12-2025.11
+* Research Assistant Professor, The Hong Kong University of Science and Technology, 2023.12-2025.11
+* Postdoctoral Research Fellow, The Hong Kong University of Science and Technology, 2022.01-2023.11
 
 Professional Service
 ---
