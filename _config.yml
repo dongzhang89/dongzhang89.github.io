@@ -26,9 +26,9 @@ author:
   avatar           : "dong.png"
   name             : "Dong Zhang (张冬)"
   pronouns         : # example: "she/her"  
-  bio              : "Professor"
-  location         : "Nanjing, China"
-  employer         : "NJUST, SCSE"
+  bio              : "教授、博导"
+  location         : "南京"
+  employer         : "南京理工大学"
   uri              : # URL
   email            : "dongz@ust.hk" 
 
