@@ -34,8 +34,8 @@ author_profile: true
 
 /* 人员卡片布局 */
 .people-gallery {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -74,9 +74,15 @@ author_profile: true
 
 .person-links {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 6px;
+}
+
+.person-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 6px;
 }
 
 .person-links a {
@@ -99,7 +105,6 @@ author_profile: true
   font-size: 1.05em;
   font-weight: bold;
   color: #2c3e50;
-  margin-bottom: 6px;
 }
 
 .person-title {
@@ -133,6 +138,7 @@ author_profile: true
 /* 响应式设计 */
 @media (max-width: 768px) {
   .people-gallery {
+    grid-template-columns: 1fr;
     gap: 20px;
   }
   
@@ -154,6 +160,10 @@ author_profile: true
   
   .person-right {
     text-align: center;
+  }
+
+  .person-heading {
+    justify-content: center;
   }
   
   .person-description {
@@ -184,12 +194,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="zhuyunmissy@njust.edu.cn">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Yun Zhu</div>
+      <div class="person-heading"><div class="person-name">Yun Zhu</div><div class="person-links"><a href="zhuyunmissy@njust.edu.cn">Email</a></div></div>
       <div class="person-title">(Co-supervised) PhD Student</div>
       <div class="person-description">
         Research Area: Medical Image Analysis<br>
@@ -200,12 +207,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="zhuyunmissy@njust.edu.cn">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Shujuan Cao</div>
+      <div class="person-heading"><div class="person-name">Shujuan Cao</div><div class="person-links"><a href="zhuyunmissy@njust.edu.cn">Email</a></div></div>
       <div class="person-title">(Co-supervised) PhD Student</div>
       <div class="person-description">
         Research Area: Image Editing<br>
@@ -215,12 +219,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Xiyu Zhang</div>
+      <div class="person-heading"><div class="person-name">Xiyu Zhang</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">PhD Student</div>
       <div class="person-description">
         Research Area: Multimodal Medical Image Understanding<br>
@@ -231,12 +232,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="helingfeng@njust.edu.cn">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Lingfeng He</div>
+      <div class="person-heading"><div class="person-name">Lingfeng He</div><div class="person-links"><a href="helingfeng@njust.edu.cn">Email</a></div></div>
       <div class="person-title">(Co-supervised) Master Student</div>
       <div class="person-description">
         Research Area: Image Editing<br>
@@ -247,12 +245,9 @@ author_profile: true
     <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Shanshan Wu</div>
+      <div class="person-heading"><div class="person-name">Shanshan Wu</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">(Co-supervised) Master Student</div>
       <div class="person-description">
         Research Area: Scene Understanding<br>
@@ -263,12 +258,9 @@ author_profile: true
     <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Wenyi Li</div>
+      <div class="person-heading"><div class="person-name">Wenyi Li</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">(Co-supervised) Master Student</div>
       <div class="person-description">
         Research Area: Out-of-Context Detection<br>
@@ -279,12 +271,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="helingfeng@njust.edu.cn">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Rui Chen</div>
+      <div class="person-heading"><div class="person-name">Rui Chen</div><div class="person-links"><a href="helingfeng@njust.edu.cn">Email</a></div></div>
       <div class="person-title">Master Student</div>
       <div class="person-description">
         Research Area: Multimodal Large Language Model, 3D Understanding<br>
@@ -296,12 +285,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Yan Chen</div>
+      <div class="person-heading"><div class="person-name">Yan Chen</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">Master Student</div>
       <div class="person-description">
         Research Area: Multimodal Large Language Model, Efficient Video Generation<br>
@@ -312,12 +298,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Shuo Liu</div>
+      <div class="person-heading"><div class="person-name">Shuo Liu</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">Master Student</div>
       <div class="person-description">
         Research Area: Multimodal Large Language Model, Efficient Visual Reasoning<br>
@@ -328,12 +311,9 @@ author_profile: true
   <div class="person-card">
     <div class="person-left">
       <img src="{{ '/images/students/favicon.png' | prepend: base_path }}" alt="Student Photo" class="person-photo" onerror="this.style.display='none'" />
-      <div class="person-links">
-        <a href="#">Email</a>
-      </div>
     </div>
     <div class="person-right">
-      <div class="person-name">Yongcheng Luo</div>
+      <div class="person-heading"><div class="person-name">Yongcheng Luo</div><div class="person-links"><a href="#">Email</a></div></div>
       <div class="person-title">Master Student</div>
       <div class="person-description">
         Research Area: Multimodal Large Language Model, Scene Understanding<br>
