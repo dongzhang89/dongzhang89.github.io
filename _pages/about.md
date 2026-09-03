@@ -70,12 +70,16 @@ Currently, I serve as a Professor at School of Computer Science and Technology, 
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">[2026/09]</span>
+            <span class="news-content">My first cohort of master’s and PhD students have embarked on their journey of growth and new challenges!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2026/08]</span>
             <span class="news-content">One funding about <span style="font-style: italic;">MLLM acceleration</span> is approved by NSFC!</span>
         </li>
         <li class="news-item">
             <span class="news-date">[2026/08]</span>
-            <span class="news-content">One paper about <span style="font-style: italic;">MLLM acceleration</span> is accepted by IEEE JSSC!</span>
+            <span class="news-content">One paper about <span style="font-style: italic;">LLM acceleration</span> is accepted by IEEE JSSC!</span>
         </li>
         <li class="news-item">
             <span class="news-date">[2026/01]</span>
