@@ -29,11 +29,11 @@ author:
   bio              : "教授、博导"
   location         : "南京"
   employer         : "南京理工大学"
-  uri              : # URL
-  email            : "dongz@ust.hk" 
+  uri              : # https://teacher.njust.edu.cn/jsj/zd/list.htm
+  email            : "dongzhang@njust.edu.cn" 
 
   # Academic websites
-  academia         : # https://ece.hkust.edu.hk/dongz
+  academia         : "https://teacher.njust.edu.cn/jsj/zd/list.htm"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=zxVy7sIAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
