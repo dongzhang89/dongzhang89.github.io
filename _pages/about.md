@@ -71,7 +71,7 @@ Currently, I serve as a Professor at School of Computer Science and Technology, 
     <ul class="news-list">
         <li class="news-item">
             <span class="news-date">[2026/09]</span>
-            <span class="news-content">My first cohort of master and PhD students have begun their journey of growth!</span>
+            <span class="news-content">My first cohort of master and PhD students have begun their journey of growth at NJUST!</span>
         </li>
         <li class="news-item">
             <span class="news-date">[2026/08]</span>
