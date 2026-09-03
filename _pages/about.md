@@ -70,6 +70,10 @@ Currently, I serve as a Professor at School of Computer Science and Technology, 
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">[2026/08]</span>
+            <span class="news-content">One paper about <span style="font-style: italic;">MLLM acceleration</span> is accepted by IEEE JSSC!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2026/01]</span>
             <span class="news-content">One paper about <span style="font-style: italic;">efficient dense Image predictions</span> is accepted by TMLR!</span>
         </li>
