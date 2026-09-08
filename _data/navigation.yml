@@ -12,7 +12,10 @@ main:
     url: /publications/
 
   - title: "Research"
-    url: /research/    
+    url: /research/
+
+  - title: "Fundings & Projects"
+    url: /fundings-projects/
 
   # - title: "Teaching"
   #   url: /teaching/
