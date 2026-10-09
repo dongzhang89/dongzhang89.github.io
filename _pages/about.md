@@ -70,6 +70,10 @@ I am a Professor in the School of Computer Science and Technology at Nanjing Uni
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">[2026/10]</span>
+            <span class="news-content">I have been selected for the Stanford Global Top 2% Scientists List!</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2026/09]</span>
             <span class="news-content">My first cohort of master and PhD students have begun their journey of growth at NJUST!</span>
         </li>
