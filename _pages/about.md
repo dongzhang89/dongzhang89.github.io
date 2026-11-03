@@ -70,6 +70,10 @@ I am a Professor in the School of Computer Science and Technology at Nanjing Uni
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
+            <span class="news-date">[2026/11]</span>
+            <span class="news-content">One paper has received the Best Paper Award at the 2026 International Conference on Al for Engineering! Congrats to Lingfeng.</span>
+        </li>
+        <li class="news-item">
             <span class="news-date">[2026/10]</span>
             <span class="news-content">I have been selected for the Stanford Global Top 2% Scientists List!</span>
         </li>
