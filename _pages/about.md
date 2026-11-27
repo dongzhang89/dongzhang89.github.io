@@ -63,12 +63,16 @@ h1 {
 </style>
 
 <div class="text-justify">
-I am a Professor in the School of Computer Science and Technology at Nanjing University of Science and Technology (NJUST) and have been selected for a national young talent program in China. Previously, I was a Research Assistant Professor in the Department of Electronic and Computer Engineering at The Hong Kong University of Science and Technology (HKUST) from December 2023 to November 2025, working closely with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting Cheng</a>. During this period, I also served as a Faculty Researcher at the AI Chip Center for Emerging Smart Systems (ACCESS). Before joining the HKUST faculty, I was a postdoctoral researcher in HKUST’s Department of Computer Science and Engineering from January 2022 to November 2023. I earned my Ph.D. degree in Computer Science and Technology from NJUST under the supervision of <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=en">Prof. Jinhui Tang</a>. From Sep. 2018 to Sep. 2020, I was sponsored by the China Scholarship Council as a joint Ph.D. student at Nanyang Technological University in Singapore, where I was jointly supervised by Prof. Hanwang Zhang and Prof. Qianru Sun.
+I am a Professor (IEEE Senior Member) in the School of Computer Science and Technology at Nanjing University of Science and Technology (NJUST) and have been selected for a national young talent program in China. Previously, I was a Research Assistant Professor in the Department of Electronic and Computer Engineering at The Hong Kong University of Science and Technology (HKUST) from December 2023 to November 2025, working closely with <a href="https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng">Prof. Kwang-Ting Cheng</a>. During this period, I also served as a Faculty Researcher at the AI Chip Center for Emerging Smart Systems (ACCESS). Before joining the HKUST faculty, I was a postdoctoral researcher in HKUST’s Department of Computer Science and Engineering from January 2022 to November 2023. I earned my Ph.D. degree in Computer Science and Technology from NJUST under the supervision of <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=en">Prof. Jinhui Tang</a>. From Sep. 2018 to Sep. 2020, I was sponsored by the China Scholarship Council as a joint Ph.D. student at Nanyang Technological University in Singapore, where I was jointly supervised by Prof. Hanwang Zhang and Prof. Qianru Sun.
 </div>
 
 # News
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
+        <li class="news-item">
+            <span class="news-date">[2026/12]</span>
+            <span class="news-content">I have successfully been promoted to an IEEE Senior Member.</span>
+        </li>
         <li class="news-item">
             <span class="news-date">[2026/11]</span>
             <span class="news-content">One paper has received the Best Paper Award at the 2026 International Conference on Al for Engineering! Congrats to Lingfeng.</span>
