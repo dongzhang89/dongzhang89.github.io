@@ -70,7 +70,7 @@ I am a Professor (IEEE Senior Member) in the School of Computer Science and Tech
 <div class="news-div has-news-scrollbar" style="overflow-y: auto; max-height: 1000px; height: auto;">
     <ul class="news-list">
         <li class="news-item">
-            <span class="news-date">[2026/12]</span>
+            <span class="news-date">[2026/11]</span>
             <span class="news-content">I have successfully been promoted to an IEEE Senior Member.</span>
         </li>
         <li class="news-item">
